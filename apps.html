@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NSBLPA - Apps</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+  <style>
+    main {
+      padding: 2rem;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+
+    /* Apps Grid */
+    .apps-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .app-section {
+      background: #f9f9f9;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .app-section h3 {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    .app-section ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .app-section li {
+      margin: 0.5rem 0;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: auto;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    main {
+      flex: 1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Apps</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="ownership.html">Ownership</a> |
+      <a href="teams.html">Teams</a> |
+      <a href="apps.html">Apps</a> |
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="apps-grid">
+
+      <!-- Team Apps -->
+      <div class="app-section">
+        <h3>Team Apps</h3>
+        <ul>
+          <li><a href="https://play.google.com/store/apps/details?id=com.nsblpa.newyork" target="_blank">New York App</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.nsblpa.miami" target="_blank">Miami App</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.nsblpa.texas" target="_blank">Texas App</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.nsblpa.atlanta" target="_blank">Atlanta App</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.nsblpa.chicago" target="_blank">Chicago App</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.nsblpa.dc" target="_blank">DC App</a></li>
+        </ul>
+      </div>
+
+      <!-- Fan Apps -->
+      <div class="app-section">
+        <h3>Fan Apps</h3>
+        <ul>
+          <li><a href="https://play.google.com/store/apps/details?id=com.nsblpa.fan.texas" target="_blank">Texas Fan App</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.nsblpa.fan.atlanta" target="_blank">Atlanta Fan App</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.nsblpa.fan.chicago" target="_blank">Chicago Fan App</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.nblpa.fan.miami" target="_blank">Miami Fan App</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.nsblpa.fan.newyork" target="_blank">New York Fan App</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.nsblpa.fan.dc" target="_blank">DC Fan App</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.nsblpa.fan.denvers" target="_blank">Denver Fan App</a></li>
+        </ul>
+      </div>
+
+      <!-- League / Ownership / Players / FVN / Advertisers -->
+      <div class="app-section">
+        <h3>League / Ownership / Players / FVN / Advertisers</h3>
+        <ul>
+          <li><a href="https://play.google.com/store/apps/details?id=com.nsblpa.team_owners" target="_blank">Team Owners App</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.fvn.network" target="_blank">FVN Network App</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.nsblpa.playersapp" target="_blank">Players App</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.fvn.livesports" target="_blank">Live Sports App</a></li>
+          <li><a href="https://play.google.com/store/apps/details?id=com.salesbet.advertisers" target="_blank">Advertisers App</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 NSBLPA. All rights reserved.</p>
+  </footer>
+</body>
+</html>
